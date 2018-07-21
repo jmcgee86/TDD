@@ -1,0 +1,4 @@
+/Users/jmcgee/Documents/TDD/obj/Debug/netcoreapp2.0/TDD.csprojAssemblyReference.cache
+/Users/jmcgee/Documents/TDD/obj/Debug/netcoreapp2.0/TDD.csproj.CoreCompileInputs.cache
+/Users/jmcgee/Documents/TDD/obj/Debug/netcoreapp2.0/TDD.AssemblyInfoInputs.cache
+/Users/jmcgee/Documents/TDD/obj/Debug/netcoreapp2.0/TDD.AssemblyInfo.cs
