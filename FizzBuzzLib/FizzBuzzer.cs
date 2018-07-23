@@ -6,14 +6,15 @@ namespace FizzBuzzLib
     {
        public static string GetValue(int input)
        {
-           //return "1"; - passes test 1
-            if (input % 3 == 0 && input % 5 == 0)
-                return "FizzBuzz";
+            string result = string.Empty;
             if(input % 3 == 0)
-                return "Fizz";
+               result += "Fizz";
             if (input % 5 ==0)
-                return "Buzz";
-           return input.ToString(); //passes tests 1+2
+                result += "Buzz";
+            if(string.IsNullOrEmpty(result))
+                result = input.ToString();
+
+           return result;
        }
     }
 }
