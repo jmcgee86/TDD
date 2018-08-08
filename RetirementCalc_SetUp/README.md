@@ -1,0 +1,3 @@
+- calculate how many years funds will last for client in retirement
+- how  many years will funds last if major expense is added before retirement
+- if already retired, assume no additional income/savings will be gained
