@@ -1,9 +1,0 @@
-/Users/jmcgee/Documents/TDD/FizzBuzzLib/bin/Debug/netstandard2.0/FizzBuzzLib.deps.json
-/Users/jmcgee/Documents/TDD/FizzBuzzLib/bin/Debug/netstandard2.0/FizzBuzzLib.dll
-/Users/jmcgee/Documents/TDD/FizzBuzzLib/bin/Debug/netstandard2.0/FizzBuzzLib.pdb
-/Users/jmcgee/Documents/TDD/FizzBuzzLib/obj/Debug/netstandard2.0/FizzBuzzLib.csprojAssemblyReference.cache
-/Users/jmcgee/Documents/TDD/FizzBuzzLib/obj/Debug/netstandard2.0/FizzBuzzLib.csproj.CoreCompileInputs.cache
-/Users/jmcgee/Documents/TDD/FizzBuzzLib/obj/Debug/netstandard2.0/FizzBuzzLib.AssemblyInfoInputs.cache
-/Users/jmcgee/Documents/TDD/FizzBuzzLib/obj/Debug/netstandard2.0/FizzBuzzLib.AssemblyInfo.cs
-/Users/jmcgee/Documents/TDD/FizzBuzzLib/obj/Debug/netstandard2.0/FizzBuzzLib.dll
-/Users/jmcgee/Documents/TDD/FizzBuzzLib/obj/Debug/netstandard2.0/FizzBuzzLib.pdb
