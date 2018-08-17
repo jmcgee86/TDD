@@ -4,9 +4,12 @@ namespace RetirementCalc.Service
     {
         public int amount {get; set;}
         public int numberofYears { get; set; }
-       public int totalExpense()
+        public int totalExpense()
         {
-            return amount*numberofYears;
+            var total = amount*numberofYears;
+            if(total<0)
+                throw new ArgumentException("expense and length must be positive");
+            return total;
         }
     }
 }

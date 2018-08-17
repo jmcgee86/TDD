@@ -18,7 +18,7 @@ namespace Tests
                     yearlySavingContribution = 22000,
                     yearlyExpenses = 55000
                 };
-            var calculator = new Calculator(new EducationExpense{amount = 0, numberofYears = 0});
+            var calculator = new Calculator(new NoExpensePlanned());
             var output = calculator.RetirementYears(client);
             Assert.That(output, Is.TypeOf<int>());
         }
@@ -52,7 +52,7 @@ namespace Tests
                     yearlySavingContribution = 20000,
                     yearlyExpenses = 40000
                 };
-            var calculator = new Calculator(new EducationExpense{amount = 0, numberofYears = 0});
+            var calculator = new Calculator(new NoExpensePlanned());
             var output = calculator.RetirementYears(client);
             var expected = 20;
             Assert.AreEqual(expected, output);
@@ -69,7 +69,7 @@ namespace Tests
                     yearlySavingContribution = 500,
                     yearlyExpenses = 40000
                 };
-            var calculator = new Calculator(new EducationExpense{amount = 0, numberofYears = 0});
+            var calculator = new Calculator(new NoExpensePlanned());
             var output = calculator.RetirementYears(client);
             var expected = 0;
             Assert.AreEqual(expected, output);
@@ -77,7 +77,7 @@ namespace Tests
         [Test]
         public void AddExpenseReturns_CorrectYears()
         {
-                    {
+                    
             var client = new Client
                 {
                     currentAge = 23,
@@ -91,7 +91,7 @@ namespace Tests
             var output = calculator.RetirementYears(client);
             var expected = 16;
             Assert.AreEqual(expected, output);
-        }
+        
         } 
     
     }

@@ -4,14 +4,16 @@ namespace RetirementCalc.Service
 {
     public class Calculator
     {
-        private IExpense _expense;
+         private IExpense _expense;
 
         public Calculator(IExpense expense)
         {
             _expense = expense;
         }
+
        public int RetirementYears(Client client)
        {
+        
         var yearsToRetirement = client.targetRetirementAge - client.currentAge;
             if(yearsToRetirement<0)
                 yearsToRetirement = 0;
